@@ -18,6 +18,8 @@ myFunction();
 
 // Explanation: 
 
+// nestedFunction can access the variable internal because when nestedFunction is run it looks for the variable internal inside its own execution context. Since it does not find the variable there, it reaches into the execution context of the parent function myFunction and finds the variable there. Functions in javascript can access the variables declared at their parents scope, but parents can´t access variables declared in the child scope. 
+
 
 /* Task 2: Counter */
 
